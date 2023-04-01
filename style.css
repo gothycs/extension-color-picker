@@ -1,0 +1,90 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+.popup {
+  width: 350px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.popup :where(.picker, header, .all-colors) {
+  display: flex;
+  align-items: center;
+}
+.popup .picker {
+  padding: 30px 0;
+  background: rgb(31, 28, 30);
+  justify-content: center;
+}
+.picker #color-picker {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: rgb(255, 163, 244);
+  transition: 0.3s ease;
+}
+#color-picker:hover {
+  background: rgb(255, 111, 238);
+}
+.picked-colors {
+  margin: 10px 15px;
+}
+.picked-colors header {
+  justify-content: space-between;
+}
+header .title {
+  font-size: 1rem;
+}
+header .clear-all {
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: rgb(255, 163, 244);
+}
+header .clear-all:hover {
+  color: rgb(255, 111, 238);
+}
+.picked-colors.hide {
+  display: none;
+}
+.picked-colors .all-colors {
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 10px 0 15px;
+}
+.all-colors .color {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: calc(100% / 3);
+}
+.all-colors .rect {
+  height: 21px;
+  width: 21px;
+  display: block;
+  margin-right: 8px;
+}
+.all-colors .color span {
+  font-size: 0.96rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'VT323', monospace;
+}
+
+.color-picker {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#input {
+  border: 5px solid #ffa3f4;
+  width: 200px;
+  height: 35px;
+  border-color: transparent;
+}
