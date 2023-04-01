@@ -81,6 +81,7 @@ header .clear-all:hover {
   text-align: center;
   font-size: 18px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 #input {
   border: 5px solid #ffa3f4;
