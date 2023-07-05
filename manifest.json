@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Color Picker",
-    "description": "Color Picker - łatwa w obsłudze, przyjazna wtyczka przydatna dla grafików, programistów i innych osób potrzebujących szybko wybrać/znaleźć wybrany kolor :)",
-    "version": "2.0",
+    "description": "Color Picker - Opis tutaj powinien być aleee nie mam weny twórczej.",
+    "version": "1.0",
     "action": {
         "default_popup": "index.html"
     },
