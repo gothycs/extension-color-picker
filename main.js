@@ -39,7 +39,7 @@ const activateEyeDropper = () => {
                 showColor();
             }
         } catch (error) {
-            alert("Error tego typu cos poszlo nie tak pierdolony idioto zobacz kod jeszcze raz");
+            alert("ERROR");
         }
         document.body.style.display = "block";
     }, 10);
